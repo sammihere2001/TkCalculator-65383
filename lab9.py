@@ -23,7 +23,6 @@ def calculate(operation):
     except ZeroDivisionError:
         messagebox.showerror("Math Error", "Cannot divide by zero.")
 
-# GUI setup
 window = tk.Tk()
 window.title("Simple Calculator")
 window.geometry("350x300")
